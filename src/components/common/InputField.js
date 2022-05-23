@@ -7,7 +7,8 @@ const InputField = ({name, label, value, onChange}) => {
 			<label htmlFor="{name}Input">
 				{label}
 			</label>
-			<input style={{fontSize:'18px', color:'black', fontWeight:'bold'}}type="text" value={value}
+			<input
+				style={{ fontSize: '18px', color: 'black', fontWeight: 'bold' }} type="text" value={value}
 				className="form-control"
 				name={name}
 				onChange={onChange}

@@ -6,7 +6,9 @@ import TimeField from '../../components/common/TimeField';
 const BookingForm = ({ booking, onSave, onChange }) => {
 	return (
 		<form>
-			<InputField name="firstName"
+			<InputField
+				
+				name="firstName"
 				value={booking.firstName}
 				label="First Name"
 				onChange={onChange}/>
